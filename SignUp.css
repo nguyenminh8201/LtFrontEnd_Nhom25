@@ -1,0 +1,48 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://haycafe.vn/wp-content/uploads/2021/12/Anh-nen-may-tinh-bong-bong-nuoc-dep-tinh-te-800x450.jpg")
+}
+#form {
+
+    width: 400px;
+    height: 525px;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: auto;
+    background: white;
+    text-align: center;
+}
+#form h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 35px;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+#form input{
+    background: white;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px #AAA;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#form button {
+    width: 230px;
+    height: 45px;
+    border-radius: 25px;
+    border-style: none;
+    background: rebeccapurple;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+#form button:hover {
+    font-weight: bold;
+    font-size: 15px;
+}
