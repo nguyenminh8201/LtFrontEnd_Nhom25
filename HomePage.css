@@ -77,16 +77,24 @@ height: 100%;
 }
 .nav_icons{
     display: flex;
+    font-size: 2.0em;
 }
 .nav_icons li{
 display: flex;
 list-style: none;
 cursor: pointer;
 color: rgba(34, 128, 97, 0.942);
-font-size: 1.5em;
+font-size: 2.0em;
 margin-left: 22px;
 
 }
+
+.nav_icons button{
+    cursor: pointer;
+    color: rgba(34, 128, 97, 0.942);
+
+}
+/*  */
 .search_chat{
     position: relative;
     width: 100%;
