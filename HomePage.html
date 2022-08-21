@@ -13,7 +13,7 @@
                 <!-- header -->
                 <div class="header">
                     <div class="userimg">
-                        <img src="../app/img/anh-avatar-dep-56.jpg" alt="anh avatar" class="cover">
+                        <img src="app/img/anh-avatar-dep-56.jpg" alt="anh avatar" class="cover">
                     </div>
                     <ul class="nav_icons">
                         <ion-icon name="add-circle-outline"></ion-icon>
@@ -33,7 +33,7 @@
                 <div class="chatlist">
                     <div class="block">
                         <div class="imgbx">
-                            <img src="../app/img/pat.jpg" alt="" class="cover">
+                            <img src="app/img/pat.jpg" alt="" class="cover">
                         </div>
                         <div class="details">
                             <div class="listHead">
@@ -48,7 +48,7 @@
                     
                         <div class="block">
                             <div class="imgbx">
-                                <img src="../app/img/img3.jpg" alt="" class="cover">
+                                <img src="app/img/img3.jpg" alt="" class="cover">
                             </div>
                             <div class="details">
                                 <div class="listHead">
@@ -62,7 +62,7 @@
                         </div>
                         <div class="block">
                             <div class="imgbx">
-                                <img src="../app/img/img4.jpg" alt="" class="cover">
+                                <img src="app/img/img4.jpg" alt="" class="cover">
                             </div>
                             <div class="details">
                                 <div class="listHead">
@@ -80,17 +80,27 @@
               
             </div>
             <div class="rightSide">
-                <div class="rightSide">
-                    <ul id="messages"></ul>
-                    <form id="form" action="">
-                      <input type="text" id="input" autocomplete="off" /><button>Send</button>
-                    </form>
-                    <script src="/socket.io/socket.io.js"></script>
-                    <script>
-                var socket = io();
+                <div class="chatbox-input">
+
+                    <div class="rightSide">
+                        <ul id="messages"></ul>
+                        <form id="form" action="">
+                          <input type="text" id="input" autocomplete="off" /><button>Send</button>
+                        </form>
+                        <script src="/socket.io/socket.io.js"></script>
+                        <script src="https://cdn.socket.io/socket.io-1.0.0.js" ></script>
+                        <!-- <script src="http://yournodeserver/socket.io/socket.io.js"></script> -->
+                        <script>
+                            
+                             var socket = io();
+                            
+    
                 </script>
-                        </div>
+                   
+
                     </div>
+                </div>
+            </div>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
