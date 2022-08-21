@@ -33,7 +33,7 @@ border-right: 1px solid rgba(0,0,0,0.2);
 .container .rightSide{
     position: relative;
     flex: 70%;
-    background: #009688;
+    background: #8bbab6;
     /* background-image: url(img/anhnen.jpg);  */
     /* border-right: 1xps solid #000; */
     opacity: 0.2;
@@ -218,4 +218,14 @@ margin-left: 22px;
     padding: 6px;
     height: 20px;
 
+}
+.rightSide button{
+    cursor: pointer;
+    color: black;
+    background-color: rgba(243, 235, 239, 0.892);
+    height: 20px;
+    width: 60px;
+    /* font-size: 1.8em; */
+    padding: auto;
+    
 }
