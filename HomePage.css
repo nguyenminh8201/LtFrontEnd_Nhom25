@@ -197,7 +197,7 @@ margin-left: 22px;
 
 }
 .message_p b{
-    background: #06d755;
+    background: rgb(68, 98, 6);
     color: #fff;
     min-width: 20px; 
     height: 20px; 
@@ -207,31 +207,15 @@ margin-left: 22px;
     align-items: center; 
     font-size: 0.75em;
 }
-.chatbox-input{
-    position: relative;
-    width: 100% ;
-    height: 60px;
-    background: rgb(108, 21, 21);
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-
+.rightSide form {
+    padding-top: 700px;
 }
-.chatbox-input input{
-    position: relative;
+.rightSide  input{
+    
     width: 90%;
-    margin: 0 20px;
-    padding: 10px 20px;
-    border: none;
     outline: none;
-    border-radius: 30px;
-    font-size: 1em;
-}
-.chatbox-input button{
-    cursor: pointer;
-    font-size: 1.8em;
-    color: #06d755;
-}
+    border: none;
+    padding: 6px;
+    height: 20px;
 
+}
